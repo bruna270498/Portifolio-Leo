@@ -6,7 +6,7 @@ import About from '../components/About';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Projects from '../components/Projects';
-import Services from '../components/Services';
+//import Services from '../components/Services';
 
 const PortfolioContent = () => {
   const { activeSection } = useApp();
@@ -19,8 +19,8 @@ const PortfolioContent = () => {
         return <Projects />;
       case 'about':
         return <About />;
-      case 'projects':
-        return <Services />;
+ //     case 'projects':
+   //     return <Services />;
       case 'contact':
         return <Contact />;
       default:
