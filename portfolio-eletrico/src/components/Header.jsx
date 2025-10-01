@@ -1,7 +1,6 @@
 import React from 'react';
 import { Zap, Menu, X } from 'lucide-react';
 import { useApp } from '../context/createContext';
-import logo from '../images/Logo-PSS.png';
 
 const Header = () => {
   const { mobileMenuOpen, setMobileMenuOpen, setActiveSection } = useApp();
@@ -10,7 +9,7 @@ const Header = () => {
     { name: 'Início', id: 'home' },
     { name: 'Serviços', id: 'services' },
     { name: 'Sobre', id: 'about' },
-    { name: 'Projetos', id: 'projects' },
+    //{ name: 'Projetos', id: 'projects' },
     { name: 'Contato', id: 'contact' }
   ];
 
@@ -19,7 +18,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
-            <img src={logo} alt="PowerSeg Soluções Logo" className="h-8 w-8" />
+            <Zap className="h-6 w-6 text-blue-400" />
             <span className="text-xl font-bold">PowerSeg Soluções</span>
           </div>
 

@@ -10,13 +10,14 @@ import interfoneImg from "../images/interfone.webp";
 import visitaTecnicaImg from "../images/visita.jpeg";
 import projetoImg from "../images/projetoEletrico.jpg";
 import quadroImg from "../images/quadro.jpeg";
+import lacoImg from "../images/laco.png";
 
 const Projects = () => {
   const projects = [
     {
       title: "Instalação e Monitoramento de Câmeras",
       category: "Segurança",
-      description: "Oferecemos sistemas de videomonitoramento modernos, com câmeras de alta resolução e gravação contínua. Garantimos a proteção de residências, comércios e indústrias, com suporte para monitoramento local ou remoto.",
+      description: "Oferecemos sistemas de videomonitoramento modernos, com câmeras de alta resolução e gravação contínua. Garantimos a proteção de residências, comércios, condomínios e indústrias, com suporte para monitoramento local ou remoto.",
       image: cameraImg
     },
     {
@@ -32,7 +33,7 @@ const Projects = () => {
       image: fechaduraImg
     },
     {
-      title: "Instalação Elétrica Residencial e Industrial",
+      title: "Instalação Elétrica Residencial e Predial",
       category: "Elétrica",
       description: "Executamos projetos elétricos completos para residências, comércios e indústrias, seguindo todas as normas de segurança. Nossa equipe garante instalações eficientes, organizadas e seguras, prontas para suportar alta demanda.",
       image: eletricaImg
@@ -52,11 +53,11 @@ const Projects = () => {
     {
       title: "Automação de Motores de Portões",
       category: "Automação",
-      description: "Oferecemos serviços de automação de portões residenciais e industriais, garantindo praticidade no dia a dia. Nossos sistemas proporcionam abertura rápida e segura, com durabilidade e baixa manutenção.",
+      description: "Oferecemos serviços de automação de portões residenciais e condominal, garantindo praticidade no dia a dia. Nossos sistemas proporcionam abertura rápida e segura, com durabilidade e baixa manutenção.",
       image: motorPortaoImg
     },
     {
-      title: "Manutenção de Interfones",
+      title: "Instalação e Manutenção de Centrais telefônicas e Interfones",
       category: "Comunicação",
       description: "Realizamos instalação e manutenção de sistemas de interfonia em residências e condomínios. Garantimos comunicação clara, confiável e segura, além de integração com outros sistemas de segurança.",
       image: interfoneImg
@@ -68,17 +69,35 @@ const Projects = () => {
       image: visitaTecnicaImg
     },
     {
-      title: "Criação de Projeto de Instalação",
+      title: "Criação de Projeto Elétrico",
       category: "Planejamento",
       description: "Desenvolvemos projetos completos de instalação elétrica, de segurança e automação. Cada projeto é planejado de acordo com as normas técnicas, garantindo qualidade, eficiência e segurança em todas as etapas.",
       image: projetoImg
     },
     {
-  title: "Criação de Quadro de Distribuição de Energia",
-  category: "Elétrica",
-  description:"Projetamos e montamos quadros de distribuição de energia personalizados para residências, comércios e indústrias. Utilizamos componentes de qualidade e seguimos todas as normas de segurança, garantindo organização, eficiência e proteção das instalações elétricas.",
-  image: quadroImg
-}
+      title: "Montagem e Manutenção de QDC",
+      category: "Elétrica",
+      description:"Projetamos e montamos quadros de distribuição de energia personalizados para residências, comércios e indústrias. Utilizamos componentes de qualidade e seguimos todas as normas de segurança, garantindo organização, eficiência e proteção das instalações elétricas.",
+      image: quadroImg
+    },
+    {
+      title: "Laço Indutivo para Controle de Portões",
+      category: "Automação",
+      description: "Implementamos sistemas de laço indutivo para automação de portões veiculares. Essa tecnologia detecta a presença de veículos, permitindo abertura automática com praticidade, segurança e sem necessidade de contato físico.",
+      image: lacoImg
+    },
+    {
+      title: "Instalação de Infraestrutura de Fibra Óptica",
+      category: "Conectividade",
+      description: "Realizamos projetos completos de infraestrutura em fibra óptica, garantindo alta velocidade, baixa latência e estabilidade na transmissão de dados. Ideal para empresas, condomínios e redes de grande porte.",
+      image: "../images/fibra.jpg"
+    },
+    {
+      title: "Cabeamento de Redes e Backbone",
+      category: "Redes",
+      description: "Executamos a instalação de cabeamento estruturado para redes de computadores, incluindo backbone para integração de sistemas de chat, monitoramento e automação. Garantimos organização, desempenho e escalabilidade.",
+      image: "../images/rede.jpg"
+    }
   ];
 
   return (
