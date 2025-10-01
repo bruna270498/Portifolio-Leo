@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppProvider, useApp } from '../context/createContext';
-import Header from '../pages/Header';
+import Header from '../components/Header';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Contact from '../components/Contact';
@@ -16,11 +16,11 @@ const PortfolioContent = () => {
       case 'home':
         return <Hero />;
       case 'services':
-        return <Services />;
+        return <Projects />;
       case 'about':
         return <About />;
       case 'projects':
-        return <Projects />;
+        return <Services />;
       case 'contact':
         return <Contact />;
       default:

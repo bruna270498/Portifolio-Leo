@@ -16,7 +16,7 @@ const Projects = () => {
     {
       title: "Instalação e Monitoramento de Câmeras",
       category: "Segurança",
-      description: "Oferecemos sistemas de videomonitoramento modernos, com câmeras de alta resolução e gravação contínua. Garantimos a proteção de residências, comércios e indústrias, com suporte para monitoramento local ou remoto.",
+      description: "Oferecemos sistemas de videomonitoramento modernos, com câmeras de alta resolução e gravação contínua. Garantimos a proteção de residências, comércios, condomínios e indústrias, com suporte para monitoramento local ou remoto.",
       image: cameraImg
     },
     {
@@ -32,7 +32,7 @@ const Projects = () => {
       image: fechaduraImg
     },
     {
-      title: "Instalação Elétrica Residencial e Industrial",
+      title: "Instalação Elétrica Residencial e Predial",
       category: "Elétrica",
       description: "Executamos projetos elétricos completos para residências, comércios e indústrias, seguindo todas as normas de segurança. Nossa equipe garante instalações eficientes, organizadas e seguras, prontas para suportar alta demanda.",
       image: eletricaImg
@@ -52,11 +52,11 @@ const Projects = () => {
     {
       title: "Automação de Motores de Portões",
       category: "Automação",
-      description: "Oferecemos serviços de automação de portões residenciais e industriais, garantindo praticidade no dia a dia. Nossos sistemas proporcionam abertura rápida e segura, com durabilidade e baixa manutenção.",
+      description: "Oferecemos serviços de automação de portões residenciais e condominal, garantindo praticidade no dia a dia. Nossos sistemas proporcionam abertura rápida e segura, com durabilidade e baixa manutenção.",
       image: motorPortaoImg
     },
     {
-      title: "Manutenção de Interfones",
+      title: "Instalação e Manutenção de Centrais telefônicas e Interfones",
       category: "Comunicação",
       description: "Realizamos instalação e manutenção de sistemas de interfonia em residências e condomínios. Garantimos comunicação clara, confiável e segura, além de integração com outros sistemas de segurança.",
       image: interfoneImg
@@ -68,13 +68,13 @@ const Projects = () => {
       image: visitaTecnicaImg
     },
     {
-      title: "Criação de Projeto de Instalação",
+      title: "Criação de Projeto Elétrico",
       category: "Planejamento",
       description: "Desenvolvemos projetos completos de instalação elétrica, de segurança e automação. Cada projeto é planejado de acordo com as normas técnicas, garantindo qualidade, eficiência e segurança em todas as etapas.",
       image: projetoImg
     },
     {
-  title: "Criação de Quadro de Distribuição de Energia",
+  title: "Montagem e Manutenção de QDC",
   category: "Elétrica",
   description:"Projetamos e montamos quadros de distribuição de energia personalizados para residências, comércios e indústrias. Utilizamos componentes de qualidade e seguimos todas as normas de segurança, garantindo organização, eficiência e proteção das instalações elétricas.",
   image: quadroImg
